@@ -12,7 +12,7 @@ IoT Central can be set up to control the Pi allowing remote control of the Neopi
 
 > You can learn more about IoT Central via Microsoft Learn, a hands-on, self-guided learning platform from Microsoft.
 >
-> [Develop IoT Central applications with IoT Central](https://docs.microsoft.com/learn/paths/develop-iot-solutions-with-azure-iot-central/)
+> [Develop IoT Central applications with IoT Central](https://docs.microsoft.com/learn/paths/develop-iot-solutions-with-azure-iot-central/?WT.mc_id=academic-10672-jabenn)
 
 ### Create an Azure IoT Central app
 
