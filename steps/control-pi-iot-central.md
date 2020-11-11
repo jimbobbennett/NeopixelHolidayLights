@@ -222,7 +222,7 @@ The connection details that you grabbed after creating the device are values tha
 
 1. From IoT Central, select the *Devices* side bar menu, then select the *Neopixel* device from the list
 
-1. From the *Commands* tab, enter a color into the *Color* box on the *On* command, then select **Run**. This color should be 6 characters, made up of 3 2-character hex codes from 00 to FF. The first 2 characters are the red value, the second are the green value, and the last is the blue value.
+1. From the *Commands* tab, enter a color into the *Color* box on the *On* command, then select **Run**. This color should be 6 characters, made up of 3 2-character hex codes from `00` to `FF`. The first 2 characters are the red value, the second are the green value, and the last is the blue value.
 
 1. The Neopixels should light up in the specified color and you should see an output similar to the following:
 

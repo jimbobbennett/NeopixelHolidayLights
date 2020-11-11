@@ -1,19 +1,19 @@
 # Python, IoT, and Power Platform powered Neopixel Holiday Lights
 
-This repo contains hands on guide showing how to control Neopixel powered holiday lights with Python running on a Raspberry Pi, Azure IoT Central and the Microsoft Power Platform.
+This repo contains a hands on guide showing how to control Neopixel powered holiday lights with Python running on a Raspberry Pi with Azure IoT Central and the Microsoft Power Platform.
 
 ![Lights controlled by an app](./images/app-controlled-lights.gif)
 
 ## Hardware required
 
-* A Raspberry Pi, SD card and power supply (you can use any Pi that can connect to the internet, so any Pi 3/4 with WiFi, a Pi Zero W, or a Pi Zero with a USB ethernet connection). If you are using a Pi Zero you may want to solder headers on to make it easier to connect the Neopixels.
+* A Raspberry Pi, SD card and power supply. You can use any Pi that can connect to the internet, so any Pi 3/4 with WiFi, a Pi Zero W, or a Pi Zero with a USB ethernet connection. If you are using a Pi Zero you may want to solder headers on to make it easier to connect the Neopixels.
 * Programmable LEDs - anything based on WS2812 or WS2812B such as Neopixels or other programmable LED strip such as [this one](https://www.amazon.com/gp/product/B07FVPN3PH)
 * A 5v power supply, either a [USB 2 to terminal block cable](https://www.amazon.com/gp/product/B07QQQZ1DV) or a [DC 5v power supply](https://www.amazon.com/gp/product/B078RXZM4C)
 * Appropriate cables depending on the LED strip you have and power supply
 
 ## Azure subscription
 
-To work through this guide, you will need an Azure subscription. THere won't be any cost to this, as you will be using free tiers of the IoT service.
+To work through this guide, you will need an Azure subscription. There won't be any cost to creating this project, as you will be using a free tier of the IoT service.
 
 ### Students
 

@@ -16,7 +16,7 @@ IoT Central can be set up to control the Pi allowing remote control of the Neopi
 
 ### Create an Azure IoT Central app
 
-1. Head to [apps.azureiotcentral.com/](https://apps.azureiotcentral.com/?WT.mc_id=academic-10672-jabenn). Sign in if necessary
+1. Head to [apps.azureiotcentral.com](https://apps.azureiotcentral.com/?WT.mc_id=academic-10672-jabenn). Sign in if necessary
 
 1. Select the **Build** tab from the side menu
 
@@ -26,7 +26,7 @@ IoT Central can be set up to control the Pi allowing remote control of the Neopi
 
 1. Set the URL. This needs to be something unique, so add something like your name or date to it if you can't think of a unique URL
 
-1. Leave the *Application template** as `Custom application`
+1. Leave the *Application template* as `Custom application`
 
 1. Select the pricing plan. It doesn't matter which one you select as they are all free for up to 2 devices, except for the free plan which is free for up to 5 devices, but your app is deleted after 7 days. If you want your app to last more than 7 days, select the **Standard 1** or **Standard 2** tier.
 
@@ -62,7 +62,7 @@ IoT Cental applications need device templates to define how a device can communi
 
     Leave all the other fields as their default values. This is a command that can be run to turn the Neopixels on to a specified color.
 
-    The color will be given as a string value representing a Hex string. It will be 6 characters long, with 2 characters each representing the R, G and B values with values from 0-255 (00-FF). For example, red is FF0000, green is 00FF00, blue is 0000FF, yellow is FFFF00, white is FFFFFF.
+    The color will be given as a string value representing a Hex string. It will be 6 characters long, with 2 characters each representing the R, G and B values with values from 0-255 (`00`-`FF`). For example, red is `FF0000`, green is `00FF00`, blue is `0000FF`, yellow is `FFFF00`, white is `FFFFFF`.
 
 1. Add another capability with the following settings:
 

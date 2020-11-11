@@ -36,7 +36,7 @@ You will need a Power Platform account to create an app. If you don't have one, 
 
 1. Drop down the *Application* box and select your IoT Central application. Set the *Device id* to `neopixel`. Drop down the *Device template* box and select the `Light Controller` device template. From the *Device Component* box, select `Interface`, then from the *Device Command* box select `On`.
 
-1. Once the *On* command has been selected, a new box will appear for the command parameter called *Color*. Select this box, and select **Ask in Power Apps* from the box that appears.
+1. Once the *On* command has been selected, a new box will appear for the command parameter called *Color*. Select this box, and select **Ask in Power Apps** from the box that appears.
 
 1. Select the *Power apps button* flow name, and edit it to `Turn lights on`
 
@@ -67,7 +67,7 @@ Once the flows are created, the Power App can be designed and connected to them.
 1. Select the Text Input and edit the name from `TextInput` to `ColorInput`. Then update the following properties:
 
     | Property       | Value |
-    | ============== | ===== |
+    | -------------- | ----- |
     | Default        |       |
     | Hint text      | Color |
     | Maximum length | 6     |
@@ -75,7 +75,7 @@ Once the flows are created, the Power App can be designed and connected to them.
 1. Select the first button below the Text Input and name it `OnButton`. Then update the following properties:
 
     | Property | Value |
-    | ======== | ===== |
+    | -------- | ----- |
     | Text     | On    |
 
 1. With the `OnButton` still selected, select the **Action** tab on the ribbon, then select **Power Automate**. From the popup, select the *Turn lights on* flow. It will take a few seconds to add the flow.
@@ -95,7 +95,7 @@ Once the flows are created, the Power App can be designed and connected to them.
 1. Select the second button and name it `OffButton`. Then update the following properties:
 
     | Property | Value |
-    | ======== | ===== |
+    | -------- | ----- |
     | Text     | Off   |
 
 1. Repeat the steps above to connect it to a flow, this time selecting the *Turn lights off* flow.
