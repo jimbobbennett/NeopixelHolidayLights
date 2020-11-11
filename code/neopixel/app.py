@@ -1,8 +1,11 @@
 import board
 import neopixel
 
-# Define the NeoPixel strip setting the pin the control wire is connected to, the brightness
-# and if the colors are written as soon as the values are updated, or if they need to be 
+# Define the NeoPixel strip setting:
+# The pin the control wire is connected to (18 in this code)
+# The length of the strip (150 LEDs in this code)
+# The brightness (0.2 on a scale of 0-1)
+# If the colors are written as soon as the values are updated, or if they need to be
 # updated all at once as soon as the values are set
 pixels = neopixel.NeoPixel(board.D18, 150, brightness=0.2, auto_write=False)
 

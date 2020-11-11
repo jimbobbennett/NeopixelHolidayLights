@@ -1,4 +1,4 @@
-# IoT and Power Platform powered Neopixel Holiday Lights
+# Python, IoT, and Power Platform powered Neopixel Holiday Lights
 
 This repo contains hands on guide showing how to control Neopixel powered holiday lights with Python running on a Raspberry Pi, Azure IoT Central and the Microsoft Power Platform.
 
@@ -13,7 +13,7 @@ This repo contains hands on guide showing how to control Neopixel powered holida
 
 ## Azure subscription
 
-To work through this guide, you will need an Azure subscription.
+To work through this guide, you will need an Azure subscription. THere won't be any cost to this, as you will be using free tiers of the IoT service.
 
 ### Students
 
@@ -35,4 +35,3 @@ You will also need a Power Platform account. If you don't have one, you can sign
 1. [Set up IoT Central](./steps/set-up-iot-central.md)
 1. [Control the Pi from IoT Central](./steps/control-pi-iot-central.md)
 1. [Control the lights from a Power App](./steps/set-up-power-app.md)
-1. [Clean up](./steps/clean-up.md)

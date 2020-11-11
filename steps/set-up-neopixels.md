@@ -49,7 +49,7 @@ Once the Pi has rebooted, you will need to install some Python packages and writ
     adafruit-circuitpython-neopixel
     ```
 
-    This file lists the pip packages needed by this app.
+    This file lists the pip packages needed by this app to control the Neopixels.
 
 1. Run the following command to install the relevant pip packages from the `requirements.txt` file:
 
@@ -63,12 +63,15 @@ Once the Pi has rebooted, you will need to install some Python packages and writ
 
 1. Add the following code to this file:
 
-    ```sh
+    ```python
     import board
     import neopixel
 
-    # Define the NeoPixel strip setting the pin the control wire is connected to, the brightness
-    # and if the colors are written as soon as the values are updated, or if they need to be 
+    # Define the NeoPixel strip setting:
+    # The pin the control wire is connected to (18 in this code)
+    # The length of the strip (150 LEDs in this code)
+    # The brightness (0.2 on a scale of 0-1)
+    # If the colors are written as soon as the values are updated, or if they need to be
     # updated all at once as soon as the values are set
     pixels = neopixel.NeoPixel(board.D18, 150, brightness=0.2, auto_write=False)
 
@@ -82,7 +85,17 @@ Once the Pi has rebooted, you will need to install some Python packages and writ
     pixels.show()
     ```
 
-    You can find this code in the [`neopixel.py`](../code/neopixel.py) file in the [`code`](../code) folder.
+    You can find this code in the [`app.py`](../code/neopixel/app.py) file in the [`code/neopixel`](../code/neopixel) folder.
+
+    Read the code and the comments to see what it does. It creates an object for the Neopixels and sets them all to blue.
+
+    The line:
+
+    ```python
+    pixels = neopixel.NeoPixel(board.D18, 150, brightness=0.2, auto_write=False)
+    ```
+
+    sets up a string of 150 neopixels. If you have a different length strip, change the value of `150` to the number of LEDs in your strip.
 
 1. Run the following command to run this code:
 
@@ -94,7 +107,7 @@ Once the Pi has rebooted, you will need to install some Python packages and writ
 
     ![Neopixels lit up in blue](../images/blue-pixels.png)
 
-## Next step
+## Next steps
 
 In this step you set up your Pi and NeoPixels, lighting them up to verify that everything is working.
 
