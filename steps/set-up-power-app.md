@@ -118,11 +118,11 @@ Once the app is created, test it out. Make sure the app is running on the Pi.
 
 1. The app will launch full screen, so enter colors and select the **On** button to turn the Neopixels on, and the **Off** button to turn then off.
 
-Once you are happy with the app, you can run it on your phone. Install the **Power Apps** app from the Apple App Store or Google Play Store, log in, select your app and use it.
+Once you are happy with the app, you can run it on your phone. Install the **Power Apps** app from the [Apple App Store](https://apps.apple.com/us/app/power-apps/id1047318566) or [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.msapps), log in, select your app and use it.
 
 ## Next steps
 
-Your app is not complete and you can use a Power App and Azure IoT Central to control Neopixels connected to a Raspberry Pi.
+Your app is now complete and you can use a Power App and Azure IoT Central to control Neopixels connected to a Raspberry Pi.
 
 You can learn more about Azure IoT Central and the Microsoft Power Platform via Microsoft Learn, a hands-on, self-guided learning platform from Microsoft.
 
